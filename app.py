@@ -33,9 +33,8 @@ def home():
 def predict():
     if request.method == "POST":
         news = request.form["news"]
-        
-        # 🔥 Clean the user input before transforming
-        cleaned_news = clean_text(news)
+
+        cleaned_news = clean_text(news)#we were been using raw processing in our test so to make it work well we will make it first preprocessed
         data = vectorizer.transform([cleaned_news])
         prediction = model.predict(data)[0]
 
