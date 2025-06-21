@@ -25,7 +25,7 @@ A simple Flask-based web application that uses machine learning to detect whethe
 ## 🛠️ How to Run
 
 1. **Clone this repo**  
-   `git clone https://github.com/yourusername/fake-news-detector.git`
+   `git clone https://github.com/ParvikaShekhawat/fake-news-detector.git`
 
 2. **Install dependencies**
 pip install -r requirements.txt
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@ParvikaShekhawat](https://github.com/yourusername)
 
 ## 📜 License
 
