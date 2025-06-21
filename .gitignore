@@ -1,23 +1,17 @@
+# Ignore datasets
+*.csv
+
+# Ignore model and vectorizer files
+*.pkl
+
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
 
-# Ignore Jupyter Notebook checkpoints
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
 # Ignore virtual environments
 venv/
 env/
 
-# Ignore CSV datasets (too large for GitHub)
-*.csv
-
-# Ignore pickle model files (optional)
-*.pkl
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
-
-# Ignore log files
-*.log
